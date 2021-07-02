@@ -1,6 +1,6 @@
 # Rasa-Chatbot
-# Table of Contents
-## Report of all jobs :- 
+## Table of Contents
+### Report of all jobs :- 
 - [Today / Yesterday](#Today / Yesterday)
 - [Based on Status](#Based on Status)
 - [Based on Particular Product](#Based on Particular Product)
@@ -8,7 +8,7 @@
 - [Based on a Particular Mainkey](#Based on a Particular Mainkey)
 - [Total List of Incidents created Today / Yesterday or on any date](#Total List of Incidents created Today / Yesterday or on any date)
 
-## Today / Yesterday
+### Today / Yesterday
 - Report of all jobs today
 - Report of all jobs yesterday
 - Report of all jobs on 
@@ -17,7 +17,7 @@
 - get me the records of jobs 5th feb 2021
 - i need the list of jobs on march 4 2021
 
-## Based on Status
+### Based on Status
 - give me total number of jobs completed today 
 - show total jobs that are on 2020-02-28 
 - print all jobs completed yesterday 
@@ -33,7 +33,7 @@
 - get me the records for finished jobs for 5th feb 2021  
 
 
-## Based on Particular Product
+### Based on Particular Product
 - give me total number of jobs running of product Rally on the date 2021-01-21 
 - show total jobs that are completed based on product CLINICAL_HC3 on 2020-02-28 
 - print all jobs that failed of product name IDT on 2019-06-19 
@@ -51,15 +51,11 @@
 - can you show me all the completed jobs of product IDT today ?
 
 
-## Topic Config and ACL Describe
+### Topic Config and ACL Describe
 
-**Currently this feature is avaialble for KaaS Alpha cluster.**
+**Currently this feature is avaialble for DbBot Alpha cluster.**
 
 `To Describe topic follow below steps.` [Note]: Topic name `kaas.kaasbot.demo` is sample topic name, Replace it with your topic.
-- @kaasbot, describe a topic config
-- @kaasbot, kaas.kaasbot.demo
+- @Dbbot, describe a topic config
+- @Dbbot, kaas.kaasbot.demo
 
-
-`To get topic ACL follow below steps` [Note]: Topic name `kaas.kaasbot.demo` is sample topic name, Replace it with your topic.
-- @kaasbot, describe topic acl for alpha
-- @kaasbot, kaas.kaasbot.demo
